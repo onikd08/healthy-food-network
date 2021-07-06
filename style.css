@@ -22,7 +22,7 @@ p{
 
 .flex-section{
     display: flex;
-    margin: 20px;
+    margin-left: 50px;
     justify-content: space-between;
     
     
@@ -64,7 +64,6 @@ span{
 
 
 #recipie{
-    
     margin-top:50px;
     text-align: center;
 }
