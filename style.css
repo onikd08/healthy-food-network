@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+#header{
+    padding: 20px;
+    text-align: center;
+    background-color:black;
+    margin-bottom: 100px;
+}
+#header a{
+    color:orange;
+    font-size: 25px;
+    text-decoration: none;
+    padding:15px 30px;
+    border-radius: 5px;
+   
+}
+
+.flex-section{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    
+    
+    
+}
+.half-width{
+    width: 50%;
+    text-align: justify;   
+}
+
+.half-width p{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+ h1 {
+    font-size: 40px;
+
+}
+span{
+    color: orange;
+}
+
+ .button{
+    background-image: linear-gradient( cyan, blue);
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: white;    
+}
+
+#middle-banner{
+    padding:20px;
+    background-image: url(assets/images/bg-image.jpg);
+    background-repeat: no-repeat;
+}
+
+
+#recipie{
+    
+    margin-top:50px;
+    text-align: center;
+}
+
+
+.card{
+    box-shadow: 10px 10px 40px gray;
+    border-right: 5px solid;
+    
+    border-image: linear-gradient(blue, cyan) 1 round;
+    height: 550px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+#card-section{
+    margin: 40px;  
+
+}
+
+.card img{
+    margin: 5%;
+    height: 300px;
+    width: 90%;
+    border-radius: 20px;
+
+}
+.card-content{ 
+    padding-left: 20px;
+}
+
+.card-content p{
+    margin-top: 10px;
+}
+
+.achievements{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    height: 170px;
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+
+.achievements div{
+    text-align: center;
+    padding: 2.5% 12%;
+}
+
+footer{
+    padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+
+#social-media{
+    margin-top: 20px;
+    
+}
+
+#social-media a{
+    padding: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius:50%;
+  }
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius:50%;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+  }
