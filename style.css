@@ -24,23 +24,32 @@ p{
     display: flex;
     margin-left: 50px;
     justify-content: space-between;
-    
-    
-    
 }
+
 .half-width{
+    
     width: 50%;
-    text-align: justify;   
+    text-align: justify;
+      
 }
+
+
 
 .half-width p{
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
- h1 {
-    font-size: 40px;
-
+h1 {
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 900;
 }
 span{
     color: orange;
@@ -56,18 +65,21 @@ span{
 }
 
 #middle-banner{
-    margin: 0;
-    padding:20px;
+    margin: 0px;
+    padding-top: 100px;
+    padding-right: 30px;
     background-image: url(assets/images/bg-image.jpg);
     background-repeat: no-repeat;
 }
 
+#middle-banner img{
+    padding-left: 50px;
+}
 
 #recipie{
     margin-top:50px;
     text-align: center;
 }
-
 
 .card{
     box-shadow: 10px 10px 40px gray;
@@ -81,7 +93,6 @@ span{
 
 #card-section{
     margin: 40px;  
-
 }
 
 .card img{
@@ -97,22 +108,20 @@ span{
 
 .card-content p{
     margin-top: 10px;
+    
 }
 
 .achievements{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     margin-left: 2.5%;
     margin-right: 2.5%;
     width: 95%;
     height: 200px;
-    
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray;
 }
-
-
 
 .achievements div{
     text-align: center;
@@ -121,9 +130,9 @@ span{
 
 footer{
     padding-top: 60px;
+    padding-bottom: 60px;
     position: absolute;
     width: 100%;
-    height: 180px;
     background-color: black;
     color: silver;
     text-align: center;
@@ -146,7 +155,7 @@ footer{
     margin: 5px 2px;
   }
 
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
     border-radius:50%;
@@ -159,13 +168,13 @@ footer{
     border-radius:50%;
   }
 
-  .fa-youtube {
+.fa-youtube {
     background: #bb0000;
     color: white;
     border-radius: 50%;
   }
   
-  .fa-instagram {
+.fa-instagram {
     background: #125688;
     color: white;
     border-radius: 50%;
